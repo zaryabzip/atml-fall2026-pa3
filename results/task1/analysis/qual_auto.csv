@@ -1,0 +1,8 @@
+variant,name,n,mean_tokens,at_cap,json_valid,json_n,template_filled,template_n,repeated_4gram_mean,math_marker
+baseline,Baseline,24,101.08333333333333,1,8,8,6,8,0.05056053453077309,0
+full_mid,"Full FT, mid",24,175.58333333333334,4,2,8,8,8,0.2556886328357254,15
+full_final,"Full FT, final",24,193.70833333333334,5,2,8,8,8,0.21419187450984953,17
+l2sp_final,"L2-SP, final",24,179.20833333333334,4,2,8,8,8,0.17873034858186912,14
+lora4_final,"LoRA-4, final",24,83.0,1,3,8,7,8,0.07947659649003543,2
+lora16_final,"LoRA-16, final",24,224.58333333333334,7,2,8,7,8,0.34483186177962494,6
+oplora16_final,"OPLoRA-16, final",24,217.29166666666666,6,2,8,7,8,0.31068452861849694,4

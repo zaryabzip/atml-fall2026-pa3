@@ -1,0 +1,22 @@
+{
+  "updates_run_total": 4500,
+  "stages": [
+    {
+      "stage": "caption",
+      "connector_params": 1837056,
+      "lora_params": 0
+    },
+    {
+      "stage": "instruct",
+      "connector_params": 1837056,
+      "lora_params": 4587520
+    },
+    {
+      "stage": "vqa",
+      "connector_params": 1837056,
+      "lora_params": 4587520
+    }
+  ],
+  "wall_seconds": 55854.2,
+  "peak_mem_GB_sampled": 1.31
+}

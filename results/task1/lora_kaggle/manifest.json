@@ -1,0 +1,202 @@
+[
+ {
+  "path": "README.txt",
+  "bytes": 980
+ },
+ {
+  "path": "config.json",
+  "bytes": 1495
+ },
+ {
+  "path": "lora16/recovery/recovery.pt",
+  "bytes": 121690781
+ },
+ {
+  "path": "lora16/snapshot_1250/adapters.pt",
+  "bytes": 80965621
+ },
+ {
+  "path": "lora16/snapshot_1250/chat_template.jinja",
+  "bytes": 4168
+ },
+ {
+  "path": "lora16/snapshot_1250/leakage.json",
+  "bytes": 2
+ },
+ {
+  "path": "lora16/snapshot_1250/tokenizer.json",
+  "bytes": 11422650
+ },
+ {
+  "path": "lora16/snapshot_1250/tokenizer_config.json",
+  "bytes": 694
+ },
+ {
+  "path": "lora16/summary.json",
+  "bytes": 572
+ },
+ {
+  "path": "lora16/train_log.json",
+  "bytes": 211902
+ },
+ {
+  "path": "lora4/recovery/recovery.pt",
+  "bytes": 30857885
+ },
+ {
+  "path": "lora4/snapshot_1250/adapters.pt",
+  "bytes": 20410357
+ },
+ {
+  "path": "lora4/snapshot_1250/chat_template.jinja",
+  "bytes": 4168
+ },
+ {
+  "path": "lora4/snapshot_1250/leakage.json",
+  "bytes": 2
+ },
+ {
+  "path": "lora4/snapshot_1250/tokenizer.json",
+  "bytes": 11422650
+ },
+ {
+  "path": "lora4/snapshot_1250/tokenizer_config.json",
+  "bytes": 694
+ },
+ {
+  "path": "lora4/summary.json",
+  "bytes": 567
+ },
+ {
+  "path": "lora4/train_log.json",
+  "bytes": 211188
+ },
+ {
+  "path": "merged/lora16/chat_template.jinja",
+  "bytes": 4168
+ },
+ {
+  "path": "merged/lora16/config.json",
+  "bytes": 1416
+ },
+ {
+  "path": "merged/lora16/generation_config.json",
+  "bytes": 214
+ },
+ {
+  "path": "merged/lora16/merge_check.json",
+  "bytes": 145
+ },
+ {
+  "path": "merged/lora16/model.safetensors",
+  "bytes": 1192134784
+ },
+ {
+  "path": "merged/lora16/tokenizer.json",
+  "bytes": 11422818
+ },
+ {
+  "path": "merged/lora16/tokenizer_config.json",
+  "bytes": 694
+ },
+ {
+  "path": "merged/lora4/chat_template.jinja",
+  "bytes": 4168
+ },
+ {
+  "path": "merged/lora4/config.json",
+  "bytes": 1416
+ },
+ {
+  "path": "merged/lora4/generation_config.json",
+  "bytes": 214
+ },
+ {
+  "path": "merged/lora4/merge_check.json",
+  "bytes": 145
+ },
+ {
+  "path": "merged/lora4/model.safetensors",
+  "bytes": 1192134784
+ },
+ {
+  "path": "merged/lora4/tokenizer.json",
+  "bytes": 11422818
+ },
+ {
+  "path": "merged/lora4/tokenizer_config.json",
+  "bytes": 694
+ },
+ {
+  "path": "merged/oplora16/chat_template.jinja",
+  "bytes": 4168
+ },
+ {
+  "path": "merged/oplora16/config.json",
+  "bytes": 1416
+ },
+ {
+  "path": "merged/oplora16/generation_config.json",
+  "bytes": 214
+ },
+ {
+  "path": "merged/oplora16/merge_check.json",
+  "bytes": 148
+ },
+ {
+  "path": "merged/oplora16/model.safetensors",
+  "bytes": 1192134784
+ },
+ {
+  "path": "merged/oplora16/tokenizer.json",
+  "bytes": 11422818
+ },
+ {
+  "path": "merged/oplora16/tokenizer_config.json",
+  "bytes": 694
+ },
+ {
+  "path": "oplora16/recovery/recovery.pt",
+  "bytes": 121690781
+ },
+ {
+  "path": "oplora16/snapshot_1250/adapters.pt",
+  "bytes": 404038173
+ },
+ {
+  "path": "oplora16/snapshot_1250/chat_template.jinja",
+  "bytes": 4168
+ },
+ {
+  "path": "oplora16/snapshot_1250/leakage.json",
+  "bytes": 83
+ },
+ {
+  "path": "oplora16/snapshot_1250/tokenizer.json",
+  "bytes": 11422650
+ },
+ {
+  "path": "oplora16/snapshot_1250/tokenizer_config.json",
+  "bytes": 694
+ },
+ {
+  "path": "oplora16/summary.json",
+  "bytes": 677
+ },
+ {
+  "path": "oplora16/train_log.json",
+  "bytes": 211957
+ },
+ {
+  "path": "report/fig_training_curves_lora.png",
+  "bytes": 93137
+ },
+ {
+  "path": "train_errors.json",
+  "bytes": 2
+ },
+ {
+  "path": "train_examples.json",
+  "bytes": 269036
+ }
+]

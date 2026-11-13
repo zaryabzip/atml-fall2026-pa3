@@ -1,0 +1,6 @@
+{
+  "run": "oplora16",
+  "max_abs_logit_diff_fp32": 0.0004291534423828125,
+  "relative_diff_fp32": 1.6842300673242898e-05,
+  "modules_merged": 196
+}

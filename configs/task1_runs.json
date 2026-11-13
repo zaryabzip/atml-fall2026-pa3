@@ -1,0 +1,81 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "seed": 6304,
+  "num_examples": 40000,
+  "effective_batch": 32,
+  "micro_batch": 2,
+  "max_len": 2048,
+  "updates": 1250,
+  "warmup": 38,
+  "grad_clip": 1.0,
+  "optimizer": {
+    "name": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01
+  },
+  "lam_l2sp": 0.001,
+  "protect_k": 128,
+  "recovery_steps": [
+    312,
+    625,
+    937
+  ],
+  "snapshot_steps": {
+    "full": [
+      625,
+      1250
+    ],
+    "l2sp": [
+      1250
+    ],
+    "lora4": [
+      1250
+    ],
+    "lora16": [
+      1250
+    ],
+    "oplora16": [
+      1250
+    ]
+  },
+  "runs": {
+    "full": {
+      "method": "full",
+      "rank": null,
+      "alpha": null,
+      "lr": 2e-05
+    },
+    "l2sp": {
+      "method": "l2sp",
+      "rank": null,
+      "alpha": null,
+      "lr": 2e-05
+    },
+    "lora4": {
+      "method": "lora",
+      "rank": 4,
+      "alpha": 8,
+      "lr": 0.0002,
+      "dropout": 0.05
+    },
+    "lora16": {
+      "method": "lora",
+      "rank": 16,
+      "alpha": 32,
+      "lr": 0.0002,
+      "dropout": 0.05
+    },
+    "oplora16": {
+      "method": "oplora",
+      "rank": 16,
+      "alpha": 32,
+      "lr": 0.0002,
+      "dropout": 0.05,
+      "protect_k": 128
+    }
+  }
+}

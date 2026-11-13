@@ -1,0 +1,39 @@
+{
+  "strategies": {
+    "single": {
+      "questions": 50,
+      "accuracy": 0.64,
+      "mean_input_tokens": 108.38,
+      "mean_output_tokens": 724.92,
+      "mean_seconds": 55.07108,
+      "truncation_rate_per_call": 0.04,
+      "no_boxed_rate_per_call": 0.04
+    },
+    "parallel": {
+      "questions": 50,
+      "accuracy": 0.64,
+      "mean_input_tokens": 325.14,
+      "mean_output_tokens": 1865.9,
+      "mean_seconds": 142.02913999999998,
+      "truncation_rate_per_call": 0.16,
+      "no_boxed_rate_per_call": 0.16
+    },
+    "refinement": {
+      "questions": 50,
+      "accuracy": 0.62,
+      "mean_input_tokens": 889.02,
+      "mean_output_tokens": 1204.42,
+      "mean_seconds": 94.42786,
+      "truncation_rate_per_call": 0.08,
+      "no_boxed_rate_per_call": 0.08
+    }
+  },
+  "revision_transitions": {
+    "wrong_to_correct": 0,
+    "correct_to_wrong": 0,
+    "same_correct": 31,
+    "same_wrong": 19
+  },
+  "peak_driver_memory_gb": 7.47,
+  "calls": 250
+}

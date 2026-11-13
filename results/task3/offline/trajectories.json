@@ -1,0 +1,67 @@
+{
+ "question": "552",
+ "rule": "first held-out question where self-consistency and VisConf + RWC differ (order 0, n = 32); highest and lowest Z rollout in each winning group",
+ "group_sizes": {
+  "NUM:3": 9,
+  "NUM:2": 9,
+  "NUM:4": 14
+ },
+ "calibration_q05_q95": [
+  12.051368427276612,
+  22.2855520248413
+ ],
+ "rollouts": [
+  {
+   "rollout": 3,
+   "role": "self-consistency winner",
+   "pick": "highest Z",
+   "answer": "NUM:4",
+   "correct": true,
+   "tokens": 242,
+   "C": 0.5523494000275909,
+   "V": 0.11499601815606486,
+   "Z": 0.06351798163406437,
+   "Ztok": 0.06385833646990077,
+   "corr_c_v": 0.016478467811803826
+  },
+  {
+   "rollout": 6,
+   "role": "self-consistency winner",
+   "pick": "lowest Z",
+   "answer": "NUM:4",
+   "correct": true,
+   "tokens": 168,
+   "C": 0.4273324835256922,
+   "V": 0.1171325936349427,
+   "Z": 0.05005456213982575,
+   "Ztok": 0.051389478107369324,
+   "corr_c_v": 0.08031379385344087
+  },
+  {
+   "rollout": 24,
+   "role": "VisConf + RWC winner",
+   "pick": "highest Z",
+   "answer": "NUM:2",
+   "correct": false,
+   "tokens": 210,
+   "C": 0.5230603656222093,
+   "V": 0.1438468322120808,
+   "Z": 0.07524057665044757,
+   "Ztok": 0.07098285240273862,
+   "corr_c_v": -0.21405234080671798
+  },
+  {
+   "rollout": 2,
+   "role": "VisConf + RWC winner",
+   "pick": "lowest Z",
+   "answer": "NUM:2",
+   "correct": false,
+   "tokens": 204,
+   "C": 0.4519758773175409,
+   "V": 0.13630361694395066,
+   "Z": 0.06160594684979613,
+   "Ztok": 0.06177501825883442,
+   "corr_c_v": 0.008925229006798903
+  }
+ ]
+}

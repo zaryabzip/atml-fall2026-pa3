@@ -1,0 +1,44 @@
+{
+ "math": {
+  "questions": 800,
+  "questions_with_correct_and_wrong": 469,
+  "mean_wrong_rollouts": 14.692963752665245,
+  "mean_distinct_wrong_answers": 6.545842217484009,
+  "mean_share_of_wrong_in_largest_wrong_group": 0.5311726900746898,
+  "questions_with_a_correct_rollout": 731,
+  "vote_correct_given_correct_exists": 0.8057455540355677,
+  "vote_misses_correct": 142,
+  "miss_mean_correct_votes": 4.422535211267606,
+  "miss_mean_winner_votes": 12.415492957746478,
+  "miss_correct_rank_share": {
+   "2": 0.3591549295774648,
+   "3": 0.2112676056338028
+  },
+  "miss_correct_votes_at_most_4": 0.6408450704225352,
+  "top_score_correct": 0.70625,
+  "top_wrong_vote_right": 0.07375,
+  "top_wrong_vote_wrong": 0.22,
+  "top_wrong_vote_wrong_same_answer_share": 0.4318181818181818
+ },
+ "mathvista": {
+  "questions": 800,
+  "questions_with_correct_and_wrong": 638,
+  "mean_wrong_rollouts": 14.318181818181818,
+  "mean_distinct_wrong_answers": 3.1724137931034484,
+  "mean_share_of_wrong_in_largest_wrong_group": 0.7000528571577336,
+  "questions_with_a_correct_rollout": 722,
+  "vote_correct_given_correct_exists": 0.7063711911357341,
+  "vote_misses_correct": 212,
+  "miss_mean_correct_votes": 6.481132075471698,
+  "miss_mean_winner_votes": 16.60377358490566,
+  "miss_correct_rank_share": {
+   "2": 0.6084905660377359,
+   "3": 0.18396226415094338
+  },
+  "miss_correct_votes_at_most_4": 0.37264150943396224,
+  "top_score_correct": 0.5825,
+  "top_wrong_vote_right": 0.12,
+  "top_wrong_vote_wrong": 0.2975,
+  "top_wrong_vote_wrong_same_answer_share": 0.5462184873949579
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "method": "full",
+  "trainable_params": 596049920,
+  "train_seconds": 9095.9,
+  "peak_mem_GB": 11.88,
+  "anchor_bytes": 2384199680,
+  "setup_seconds": 0.0,
+  "basis_bytes": 0,
+  "recovery_bytes": 7152987737,
+  "snapshot_bytes": {
+    "snapshot_625": 1241314807,
+    "snapshot_1250": 1241314807
+  },
+  "snapshot_seconds": {
+    "snapshot_625": 3.06,
+    "snapshot_1250": 2.15
+  },
+  "penalty_seconds_total": 727.56,
+  "final_displacement": 10.228178895876688,
+  "world_size": 1,
+  "updates_run": 1250
+}

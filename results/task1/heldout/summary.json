@@ -1,0 +1,224 @@
+{
+ "baseline": {
+  "heldout_accuracy": 41.6,
+  "gsm8k_official": 43.36618650492798,
+  "gsm8k_same_scorer": 59.9696739954511,
+  "extraction": {
+   "boxed": 675,
+   "none": 36,
+   "last_number": 289
+  },
+  "answer_line": 0.0,
+  "gsm8k_answer_line": 0.0,
+  "truncated": 11.3,
+  "mean_new_tokens": 442.304,
+  "nll_pooled": 0.8829173798970282,
+  "nll_body": 0.9606824710864345,
+  "nll_phrase": 1.9446232981731453,
+  "nll_value": 1.8989111288468465
+ },
+ "full_mid": {
+  "heldout_accuracy": 30.8,
+  "gsm8k_official": 58.45337376800607,
+  "gsm8k_same_scorer": 58.45337376800607,
+  "extraction": {
+   "answer_line": 677,
+   "last_number": 82,
+   "boxed": 223,
+   "none": 18
+  },
+  "answer_line": 89.9,
+  "gsm8k_answer_line": 98.78695981804397,
+  "truncated": 10.0,
+  "mean_new_tokens": 286.112,
+  "nll_pooled": 0.27832778787707085,
+  "nll_body": 0.29454883187820813,
+  "nll_phrase": 0.012247153416238289,
+  "nll_value": 0.03465373256825741,
+  "gain_heldout": [
+   -10.8,
+   -14.214911758146753,
+   -7.41850600953074
+  ],
+  "gain_gsm8k_official": [
+   15.08718726307809,
+   12.054586808188022,
+   18.27141774071266
+  ],
+  "gain_gsm8k_same_scorer": [
+   -1.5163002274450341,
+   -4.321455648218348,
+   1.3646702047005308
+  ]
+ },
+ "full_final": {
+  "heldout_accuracy": 31.6,
+  "gsm8k_official": 64.44275966641395,
+  "gsm8k_same_scorer": 64.44275966641395,
+  "extraction": {
+   "answer_line": 671,
+   "boxed": 239,
+   "none": 13,
+   "last_number": 77
+  },
+  "answer_line": 91.0,
+  "gsm8k_answer_line": 99.31766489764973,
+  "truncated": 9.0,
+  "mean_new_tokens": 281.057,
+  "nll_pooled": 0.25873290042893804,
+  "nll_body": 0.27436205738619796,
+  "nll_phrase": 0.013237442211300923,
+  "nll_value": 0.03100863745602863,
+  "gain_heldout": [
+   -10.0,
+   -13.340387158707468,
+   -6.576334892538164
+  ],
+  "gain_gsm8k_official": [
+   21.076573161485975,
+   18.11978771796816,
+   24.035253980288097
+  ],
+  "gain_gsm8k_same_scorer": [
+   4.473085670962851,
+   1.7418498862774832,
+   7.278241091736164
+  ]
+ },
+ "l2sp_final": {
+  "heldout_accuracy": 32.4,
+  "gsm8k_official": 65.42835481425323,
+  "gsm8k_same_scorer": 65.42835481425323,
+  "extraction": {
+   "answer_line": 671,
+   "boxed": 244,
+   "last_number": 76,
+   "none": 9
+  },
+  "answer_line": 91.5,
+  "gsm8k_answer_line": 99.62092494313875,
+  "truncated": 8.5,
+  "mean_new_tokens": 277.809,
+  "nll_pooled": 0.2571974023205464,
+  "nll_body": 0.2731717608365504,
+  "nll_phrase": 0.013839279299498745,
+  "nll_value": 0.03635601423033623,
+  "gain_heldout": [
+   -9.2,
+   -12.5,
+   -5.935464546070392
+  ],
+  "gain_gsm8k_official": [
+   22.062168309325248,
+   19.18119787717968,
+   25.246398786959816
+  ],
+  "gain_gsm8k_same_scorer": [
+   5.458680818802123,
+   2.7274450341167555,
+   8.189916603487488
+  ]
+ },
+ "lora4_final": {
+  "heldout_accuracy": 32.300000000000004,
+  "gsm8k_official": 59.9696739954511,
+  "gsm8k_same_scorer": 59.9696739954511,
+  "extraction": {
+   "answer_line": 688,
+   "boxed": 224,
+   "none": 16,
+   "last_number": 72
+  },
+  "answer_line": 91.2,
+  "gsm8k_answer_line": 99.09021986353298,
+  "truncated": 8.799999999999999,
+  "mean_new_tokens": 283.802,
+  "nll_pooled": 0.27666940497505527,
+  "nll_body": 0.29658350861598537,
+  "nll_phrase": 0.019421082655350495,
+  "nll_value": 0.051899697622167625,
+  "gain_heldout": [
+   -9.3,
+   -12.75059920478247,
+   -5.963350549966533
+  ],
+  "gain_gsm8k_official": [
+   16.603487490523122,
+   13.570887035633056,
+   19.71379833206975
+  ],
+  "gain_gsm8k_same_scorer": [
+   0.0,
+   -2.9567854435178167,
+   2.8828658074298694
+  ]
+ },
+ "lora16_final": {
+  "heldout_accuracy": 32.6,
+  "gsm8k_official": 62.4715693707354,
+  "gsm8k_same_scorer": 62.4715693707354,
+  "extraction": {
+   "answer_line": 686,
+   "boxed": 221,
+   "none": 12,
+   "last_number": 81
+  },
+  "answer_line": 90.7,
+  "gsm8k_answer_line": 99.54510993176649,
+  "truncated": 9.0,
+  "mean_new_tokens": 284.068,
+  "nll_pooled": 0.2657076070501634,
+  "nll_body": 0.28411835198596347,
+  "nll_phrase": 0.016432674081432872,
+  "nll_value": 0.04325794145084374,
+  "gain_heldout": [
+   -9.0,
+   -12.462955927051672,
+   -5.789273353606578
+  ],
+  "gain_gsm8k_official": [
+   19.105382865807428,
+   16.22251705837756,
+   22.21379833206975
+  ],
+  "gain_gsm8k_same_scorer": [
+   2.501895375284306,
+   -0.305155420773313,
+   5.231235784685367
+  ]
+ },
+ "oplora16_final": {
+  "heldout_accuracy": 32.800000000000004,
+  "gsm8k_official": 63.38134950720242,
+  "gsm8k_same_scorer": 63.38134950720242,
+  "extraction": {
+   "answer_line": 696,
+   "boxed": 223,
+   "none": 12,
+   "last_number": 69
+  },
+  "answer_line": 91.9,
+  "gsm8k_answer_line": 99.69673995451099,
+  "truncated": 7.9,
+  "mean_new_tokens": 277.158,
+  "nll_pooled": 0.2666085886389732,
+  "nll_body": 0.28515007770892015,
+  "nll_phrase": 0.017020062464621434,
+  "nll_value": 0.04422495920051291,
+  "gain_heldout": [
+   -8.799999999999999,
+   -12.219209657174918,
+   -5.607167644346413
+  ],
+  "gain_gsm8k_official": [
+   20.01516300227445,
+   17.058377558756636,
+   23.049658832448824
+  ],
+  "gain_gsm8k_same_scorer": [
+   3.411675511751327,
+   0.8339651250947688,
+   6.142911296436693
+  ]
+ }
+}

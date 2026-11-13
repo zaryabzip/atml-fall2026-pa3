@@ -1,0 +1,28 @@
+# environments and caches
+.venv/
+cache/
+__pycache__/
+.DS_Store
+
+# model weights, checkpoints, zips, run artifacts (kept locally, not in git)
+artifacts/
+*.pt
+*.npy
+*.safetensors
+*.zip
+*.tmp
+*.log
+
+# raw datasets and extracted features (too large; see data/README.md)
+data/task2/coco/
+data/task2/vqa/
+data/task2/features/
+data/task2/raw/
+
+# course material
+docs/spec/
+
+# report sources and notes (kept locally)
+report/
+docs/
+.vscode/

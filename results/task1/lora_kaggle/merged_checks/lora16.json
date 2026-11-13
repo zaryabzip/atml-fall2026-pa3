@@ -1,0 +1,6 @@
+{
+  "run": "lora16",
+  "max_abs_logit_diff_fp32": 0.0006771087646484375,
+  "relative_diff_fp32": 2.659207701425058e-05,
+  "modules_merged": 196
+}

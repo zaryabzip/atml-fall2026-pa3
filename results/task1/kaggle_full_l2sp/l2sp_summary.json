@@ -1,0 +1,20 @@
+{
+  "method": "l2sp",
+  "trainable_params": 596049920,
+  "train_seconds": 9014.6,
+  "peak_mem_GB": 11.88,
+  "anchor_bytes": 2384199680,
+  "setup_seconds": 0.0,
+  "basis_bytes": 0,
+  "recovery_bytes": 7152987737,
+  "snapshot_bytes": {
+    "snapshot_1250": 1241314807
+  },
+  "snapshot_seconds": {
+    "snapshot_1250": 6.74
+  },
+  "penalty_seconds_total": 747.35,
+  "final_displacement": 6.2729355038207695,
+  "world_size": 1,
+  "updates_run": 1250
+}

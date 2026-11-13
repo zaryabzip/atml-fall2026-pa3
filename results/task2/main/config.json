@@ -1,0 +1,50 @@
+{
+  "seed": 6304,
+  "args": {
+    "out": "runs/task2/main",
+    "stage_scale": 1.0,
+    "ckpt_every": 250,
+    "stop_at": null,
+    "device": "mps"
+  },
+  "stages": [
+    {
+      "name": "caption",
+      "updates": 2250,
+      "conn_lr": 0.001,
+      "lora_lr": null,
+      "mix": {
+        "caption": 1.0
+      }
+    },
+    {
+      "name": "instruct",
+      "updates": 1500,
+      "conn_lr": 0.0001,
+      "lora_lr": 2e-05,
+      "mix": {
+        "presence": 0.5,
+        "counting": 0.25,
+        "caption": 0.25
+      }
+    },
+    {
+      "name": "vqa",
+      "updates": 750,
+      "conn_lr": 5e-05,
+      "lora_lr": 1e-05,
+      "mix": {
+        "vqa": 0.7,
+        "presence": 0.1,
+        "counting": 0.1,
+        "caption": 0.1
+      }
+    }
+  ],
+  "micro": 8,
+  "accum": 2,
+  "scaler_init_scale": 2048,
+  "device": "mps",
+  "scale": 0.05456984043121338,
+  "scale_rule": "scale = std(text token embeddings) / std(connector output), initial connector, training caption tokens only"
+}

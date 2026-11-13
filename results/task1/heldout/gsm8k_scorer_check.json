@@ -1,0 +1,141 @@
+{
+ "baseline": {
+  "n": 1319,
+  "stock": 43.36618650492798,
+  "stock_digit_fix": 57.543593631539046,
+  "math_verify_format_neutral": 59.9696739954511,
+  "stock_picked_dollar_signs": 321
+ },
+ "full_mid": {
+  "n": 1319,
+  "stock": 58.45337376800607,
+  "stock_digit_fix": 58.45337376800607,
+  "math_verify_format_neutral": 58.45337376800607,
+  "stock_picked_dollar_signs": 0,
+  "gain_stock": [
+   15.08718726307809,
+   11.751326762699014,
+   18.423047763457166
+  ],
+  "gain_stock_digit_fix": [
+   0.9097801364670205,
+   -1.819560272934041,
+   3.7149355572403335
+  ],
+  "gain_math_verify_format_neutral": [
+   -1.5163002274450341,
+   -4.321455648218348,
+   1.4404852160727823
+  ]
+ },
+ "full_final": {
+  "n": 1319,
+  "stock": 64.44275966641395,
+  "stock_digit_fix": 64.44275966641395,
+  "math_verify_format_neutral": 64.44275966641395,
+  "stock_picked_dollar_signs": 0,
+  "gain_stock": [
+   21.076573161485975,
+   18.11978771796816,
+   24.109173616376044
+  ],
+  "gain_stock_digit_fix": [
+   6.899166034874906,
+   4.09021986353298,
+   9.554586808188018
+  ],
+  "gain_math_verify_format_neutral": [
+   4.473085670962851,
+   1.592115238817286,
+   7.3578468536770245
+  ]
+ },
+ "l2sp_final": {
+  "n": 1319,
+  "stock": 65.42835481425323,
+  "stock_digit_fix": 65.42835481425323,
+  "math_verify_format_neutral": 65.42835481425323,
+  "stock_picked_dollar_signs": 0,
+  "gain_stock": [
+   22.062168309325248,
+   19.179302501895375,
+   25.02084912812737
+  ],
+  "gain_stock_digit_fix": [
+   7.884761182714177,
+   5.003790750568612,
+   10.464366944655039
+  ],
+  "gain_math_verify_format_neutral": [
+   5.458680818802123,
+   2.6535253980288096,
+   8.03639120545868
+  ]
+ },
+ "lora4_final": {
+  "n": 1319,
+  "stock": 59.9696739954511,
+  "stock_digit_fix": 59.9696739954511,
+  "math_verify_format_neutral": 59.9696739954511,
+  "stock_picked_dollar_signs": 0,
+  "gain_stock": [
+   16.603487490523122,
+   13.495072024260804,
+   19.71379833206975
+  ],
+  "gain_stock_digit_fix": [
+   2.4260803639120545,
+   -0.7600454890068232,
+   5.382865807429871
+  ],
+  "gain_math_verify_format_neutral": [
+   0.0,
+   -3.10841546626232,
+   2.9567854435178167
+  ]
+ },
+ "lora16_final": {
+  "n": 1319,
+  "stock": 62.4715693707354,
+  "stock_digit_fix": 62.4715693707354,
+  "math_verify_format_neutral": 62.4715693707354,
+  "stock_picked_dollar_signs": 0,
+  "gain_stock": [
+   19.105382865807428,
+   16.148597422289612,
+   22.29150871872631
+  ],
+  "gain_stock_digit_fix": [
+   4.927975739196361,
+   2.120924943138742,
+   7.657316148597422
+  ],
+  "gain_math_verify_format_neutral": [
+   2.501895375284306,
+   -0.2293404094010613,
+   5.382865807429871
+  ]
+ },
+ "oplora16_final": {
+  "n": 1319,
+  "stock": 63.38134950720242,
+  "stock_digit_fix": 63.38134950720242,
+  "math_verify_format_neutral": 63.38134950720242,
+  "stock_picked_dollar_signs": 0,
+  "gain_stock": [
+   20.01516300227445,
+   16.90674753601213,
+   23.12357846853677
+  ],
+  "gain_stock_digit_fix": [
+   5.837755875663381,
+   2.9567854435178167,
+   8.794541319181198
+  ],
+  "gain_math_verify_format_neutral": [
+   3.411675511751327,
+   0.6065200909780136,
+   6.294541319181196
+  ]
+ }
+}

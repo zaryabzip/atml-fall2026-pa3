@@ -1,0 +1,121 @@
+{
+ "baseline": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": 0.28125,
+   "p_yes_of_two": 0.5698526501655579,
+   "mass_yes_no": 7.77932582423091e-05
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": 0.59375,
+   "p_yes_of_two": 0.6442250609397888,
+   "mass_yes_no": 0.0005366387777030468
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 2.062499761581421,
+   "p_yes_of_two": 0.8872045874595642,
+   "mass_yes_no": 0.04981338232755661
+  }
+ },
+ "full_mid": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": -0.17578125,
+   "p_yes_of_two": 0.4561674892902374,
+   "mass_yes_no": 7.18936207704246e-05
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": 0.5624995231628418,
+   "p_yes_of_two": 0.6370306611061096,
+   "mass_yes_no": 0.0008097923127934337
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 1.125,
+   "p_yes_of_two": 0.7549149990081787,
+   "mass_yes_no": 0.05872940644621849
+  }
+ },
+ "full_final": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": -0.16015625,
+   "p_yes_of_two": 0.46004632115364075,
+   "mass_yes_no": 6.519048474729061e-05
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": 0.4375004768371582,
+   "p_yes_of_two": 0.6076632738113403,
+   "mass_yes_no": 0.000796547275967896
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 1.0625,
+   "p_yes_of_two": 0.7431680560112,
+   "mass_yes_no": 0.056713350117206573
+  }
+ },
+ "l2sp_final": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": 0.828125,
+   "p_yes_of_two": 0.6959583163261414,
+   "mass_yes_no": 0.0001076342596206814
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": 1.4296870231628418,
+   "p_yes_of_two": 0.8068525791168213,
+   "mass_yes_no": 0.001713064149953425
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 1.914062738418579,
+   "p_yes_of_two": 0.8714748620986938,
+   "mass_yes_no": 0.07999347150325775
+  }
+ },
+ "lora4_final": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": -0.7421875,
+   "p_yes_of_two": 0.3225259780883789,
+   "mass_yes_no": 0.00021805496362503618
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": -0.6796875,
+   "p_yes_of_two": 0.3363310694694519,
+   "mass_yes_no": 0.000537502986844629
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 2.3359375,
+   "p_yes_of_two": 0.9118099808692932,
+   "mass_yes_no": 0.045837897807359695
+  }
+ },
+ "lora16_final": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": -0.65625,
+   "p_yes_of_two": 0.3415825068950653,
+   "mass_yes_no": 0.00013630079047288746
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": 0.75,
+   "p_yes_of_two": 0.6791787147521973,
+   "mass_yes_no": 0.0004814195854123682
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 2.703125238418579,
+   "p_yes_of_two": 0.937210738658905,
+   "mass_yes_no": 0.07203484326601028
+  }
+ },
+ "oplora16_final": {
+  "N/A passage and question": {
+   "logit_yes_minus_no": -0.4453125,
+   "p_yes_of_two": 0.3904758393764496,
+   "mass_yes_no": 0.0001763602194841951
+  },
+  "empty passage, N/A question": {
+   "logit_yes_minus_no": 0.7343745231628418,
+   "p_yes_of_two": 0.6757645010948181,
+   "mass_yes_no": 0.0005911247571930289
+  },
+  "neutral question": {
+   "logit_yes_minus_no": 2.429687261581421,
+   "p_yes_of_two": 0.9190632104873657,
+   "mass_yes_no": 0.075074203312397
+  }
+ }
+}

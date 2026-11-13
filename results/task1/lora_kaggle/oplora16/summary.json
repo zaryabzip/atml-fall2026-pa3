@@ -1,0 +1,27 @@
+{
+  "run": "oplora16",
+  "method": "oplora",
+  "rank": 16,
+  "alpha": 32,
+  "lr": 0.0002,
+  "updates": 1250,
+  "trainable_params": 10092544,
+  "trainable_bytes_fp32": 40370176,
+  "train_seconds": 20058.4,
+  "mean_seconds_per_update": 16.05,
+  "peak_mem_GB": 2.89,
+  "setup_seconds": 146.71,
+  "basis_bytes": 322961408,
+  "adapter_file_bytes": 404038173,
+  "snapshot_dir_bytes": 415465768,
+  "snapshot_export_seconds": 1.08,
+  "recovery_file_bytes": 121690781,
+  "skipped_updates": 0,
+  "final_sft_loss": 0.18094698362864645,
+  "backbone_dtype": "torch.float16",
+  "checks": {
+    "max_leak_out": 4.71482053399086e-08,
+    "max_leak_in": 1.5133991837501526e-07
+  },
+  "gpu": 1
+}
