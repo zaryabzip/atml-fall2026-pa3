@@ -110,3 +110,9 @@ Weights, checkpoints, recovery files, zips, raw COCO and VQA images, and extract
 - `task1/diagnostics_task1.py` copies `hs_preprocess` and `hs_query` from the lm-evaluation-harness HellaSwag task.
 
 **Methods and papers:** Self-consistency (Wang et al., 2023); self-certainty (Kang et al., 2025); VisConf (Usman et al., 2026); Self-Refine (Madaan et al., 2023); Large Language Monkeys (Brown et al., 2024); LoRA (Hu et al., 2021); OPLoRA (Xiong and Xie, AAAI 2026); L2-SP (Li et al., ICML 2018); two-stage visual instruction tuning idea from LLaVA (Liu et al., 2023). Our connector is a 2-layer MLP on SigLIP features, not LLaVA's linear projection on CLIP features; LoRA Learns Less and Forgets Less (Biderman et al., 2024).
+
+**Course material:** the Task 3 rollouts, specification and starter assets are from the ATML PA3 course staff. Libraries: PyTorch, Hugging Face Transformers, PEFT, datasets, NumPy, pandas, matplotlib, pyarrow, `math-verify`.
+
+**Coding assistance:** Claude Code was used for help in writing the code. I reviewed the code and am responsible for it.
+
+No other external code was reused.
