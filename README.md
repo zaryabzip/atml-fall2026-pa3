@@ -51,6 +51,7 @@ Task 2, Task 3 and the Task 1 LoRA and OPLoRA runs used an Apple M4 with MPS. Ta
    .venv/bin/python task1/eval_task1.py --help
    ```
 5. Diagnostics, qualitative outputs and the report: `task1/diagnostics_task1.py`, `task1/qualitative_task1.py`, `task1/report_task1.py`.
+6. The 42-response annotation subset is `results/task1/qualitative/annotation_subset.csv`. `task1/annotation_summary.py` tallies its labels per condition.
 
 Kaggle outputs keep the training logs and summaries in `results/task1/`. Weights stay in `artifacts/`.
 
